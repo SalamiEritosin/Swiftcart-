@@ -77,6 +77,25 @@ Order tracking availability: 60% → ≥95%<br>
 <br>
 <br>
 
+| Finding | Evidence / Observation	| Implication |
+| -------------------------------- | ----------------------------- | ----------------------------- |
+| Late delivery	| 34% of cancellations associated with late delivery	| Need proactive SLA monitoring and exception management |
+| Product unavailable	| 27% associated with availability issues	| Need earlier inventory validation and reservation |
+| Poor visibility	| 18% associated with poor status visibility	| Need unified order tracking and customer updates |
+| Inventory synchronization	| Updates are delayed/inconsistent	| Customer-facing stock can differ from actual stock |
+| Customer Service	| Agents use multiple systems	| Slow order investigation and resolution |
+| Warehouse	| Manual fulfillment steps	| Higher delay and coordination risk |
+| Notifications	| Updates are inconsistent	| Customers may cancel because they lack information |
+
+<br>
+<br>
+
+**AS-IS PROCESS**
+
+Customer → Browse → Add to Cart → Checkout → Payment → Order Created → Inventory Check → Warehouse → Pick → Pack → Dispatch → Delivery
+If unavailable: Contact Customer → Cancellation → Refund
+
+<br>
 
 **GAP ANALYSIS**<br>
 | Current State	| Desired State	| Gap |
