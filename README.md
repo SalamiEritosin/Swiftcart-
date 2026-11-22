@@ -89,6 +89,47 @@ Order tracking availability: 60% → ≥95%<br>
 <br>
 <br>
 
+
+Stakeholder needs and elicitation plan
+Stakeholder	Information to elicit	Technique	Sample questions
+COO / Sponsor	Business case, cancellation baseline, target outcomes, investment and operational risks.	Executive interview; decision workshop	What cancellation and fulfilment outcomes matter most? What trade-offs are acceptable? Who approves scope and go-live?
+Product owner	Customer journey, order lifecycle rules, priorities and release scope.	Requirements workshop; backlog review	What should happen when stock changes between cart and payment? Which statuses must customers see?
+Warehouse / Fulfilment	Current pick-pack-dispatch process, bottlenecks, cut-off times and exception reasons.	Process walkthrough; observation; workshop	Where do orders wait? How are short picks, damaged items and missed dispatch cut-offs handled?
+Inventory / Stock control	Stock source of truth, update timing, reservation and adjustment rules.	Data/process workshop	When is stock reserved and released? How are oversells and stock mismatches detected and corrected?
+Customer service manager / agents	Common enquiry types, tools used, handoffs, repeat contacts and escalation rules.	Interviews; call/case sampling (if available); prototype review	What information must appear in one order view? Which actions can agents perform and which require approval?
+Logistics / Courier	Dispatch handoff, carrier events, ETA calculation and failed-delivery process.	Interface workshop; process walkthrough	Which tracking events are available? How often are they updated? What happens when a carrier misses a scan?
+Finance / Payments	Payment states, settlement, cancellation, refunds and reconciliation controls.	Policy review; interview	When is payment captured? What refund triggers and approvals apply to cancelled orders?
+IT / Developers	Current systems, APIs, data ownership, constraints, identity/security and integration dependencies.	Technical discovery; interface workshop	Which system owns each data element? What APIs/events exist? What latency, availability and security constraints apply?
+QA / Test lead	Test strategy, environments, test data, acceptance and defect workflow.	Test planning workshop	How will stock race conditions, duplicate events, delayed updates and failed integrations be tested?
+Data / BI	KPI definitions, source data, event timestamps, dashboard audiences and refresh cadence.	Metric-definition workshop	How are cancellation rate, fulfilment time, on-time delivery and inventory accuracy calculated?
+Customers	Expectations for stock confidence, order tracking, ETA and issue resolution.	Survey/interviews/usability testing	What information would reduce uncertainty? At what points should customers receive updates?
+
+
+
+<br>
+<br>
+
+
+RACI – key project activities
+R = Responsible for doing the work; A = Accountable for the outcome/approval; C = Consulted; I = Informed. One A is assigned per activity in this illustrative matrix.
+Activity	Sponsor	Product / BA*	Operations	Customer service	IT / Dev	QA	Data / BI
+Define business objectives and success measures	A	R	C	C	I	I	I
+Analyse current order/fulfilment process	I	A	R	R	C	C	C
+Elicit and document business requirements	I	A/R	C	C	C	C	C
+Approve business priorities and scope	A	R	C	C	C	I	I
+Design technical integration and architecture	I	C	C	C	A/R	C	I
+Build/configure solution	I	C	C	I	A/R	C	I
+Prepare and execute system/integration tests	I	C	C	I	C	A/R	I
+Coordinate business UAT	I	A/R	C	R	C	R	C
+Approve operational process readiness	I	C	A	R	C	C	I
+Approve business acceptance / go-live recommendation	A	R	C	C	C	C	I
+Monitor KPIs and benefits after release	A	R	R	C	C	C	R
+
+
+
+<br>
+<br>
+
 **ELICITATION & REQUIREMENTS GATHERING**<br>
 **Elicitation plan**
 | Method |	Participants/Evidence  |	Purpose |
