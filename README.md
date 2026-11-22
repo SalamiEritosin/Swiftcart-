@@ -82,18 +82,6 @@ Order tracking availability: 60% → ≥95%<br>
 <br>
 <br>
 
-| Finding | Evidence / Observation	| Implication |
-| -------------------------------- | ----------------------------- | ----------------------------- |
-| Late delivery	| 34% of cancellations associated with late delivery	| Need proactive SLA monitoring and exception management |
-| Product unavailable	| 27% associated with availability issues	| Need earlier inventory validation and reservation |
-| Poor visibility	| 18% associated with poor status visibility	| Need unified order tracking and customer updates |
-| Inventory synchronization	| Updates are delayed/inconsistent	| Customer-facing stock can differ from actual stock |
-| Customer Service	| Agents use multiple systems	| Slow order investigation and resolution |
-| Warehouse	| Manual fulfillment steps	| Higher delay and coordination risk |
-| Notifications	| Updates are inconsistent	| Customers may cancel because they lack information |
-
-<br>
-<br>
 
 **AS-IS PROCESS**
 
@@ -101,6 +89,7 @@ Customer → Browse → Add to Cart → Checkout → Payment → Order Created �
 If unavailable: Contact Customer → Cancellation → Refund
 
 <br>
+
 
 **GAP ANALYSIS**<br>
 | Current State	| Desired State	| Gap |
@@ -115,6 +104,18 @@ If unavailable: Contact Customer → Cancellation → Refund
 <br>
 <br>
 
+| Finding | Evidence / Observation	| Implication |
+| -------------------------------- | ----------------------------- | ----------------------------- |
+| Late delivery	| 34% of cancellations associated with late delivery	| Need proactive SLA monitoring and exception management |
+| Product unavailable	| 27% associated with availability issues	| Need earlier inventory validation and reservation |
+| Poor visibility	| 18% associated with poor status visibility	| Need unified order tracking and customer updates |
+| Inventory synchronization	| Updates are delayed/inconsistent	| Customer-facing stock can differ from actual stock |
+| Customer Service	| Agents use multiple systems	| Slow order investigation and resolution |
+| Warehouse	| Manual fulfillment steps	| Higher delay and coordination risk |
+| Notifications	| Updates are inconsistent	| Customers may cancel because they lack information |
+
+<br>
+<br>
 
 **BUSINESS REQUIREMENTS**<br>
 | ID	| Requirement	| Priority |
@@ -176,6 +177,19 @@ If unavailable: Contact Customer → Cancellation → Refund
 | Won't	| AI chatbot, complete website redesign, recommendation engine |
 
 <br>
+<br>
+<br>
+
+**USER STORIES AND ACCEPTANCE CRITERIA**
+
+| ID 	| User Story | Acceptance Criteria |
+| -------------------------------- | ----------------------------- | ----------------------------- |
+| US-001 | As a customer, I want inventory validated before confirmation so I do not purchase an unavailable product. (inventory) |	Available stock is validated/reserved; unavailable stock prevents confirmation and shows an appropriate message.|
+| US-002 | As a customer, I want to see my order status so I know where my order is. (Order tracking) |	Latest status, ETA and tracking number are displayed where available.|
+| US-003 | As a customer, I want order updates so I know when my order progresses. (notification) |	Confirmation, dispatch, out-for-delivery, delivery and significant-delay notifications are triggered. |
+| US-004 | As a CS agent, I want one order view so I can resolve customer issues quickly. (Customer service) |	Agent can retrieve order and see payment, inventory, fulfillment and delivery information, customer details, cancellation/refund. |
+| US-005 | As an Operations Manager, I want delayed orders identified automatically so I can intervene before cancellation. (monitoring) |	SLA threshold is defined, orders monitored, flagged and visible to Operations. Escalation can occur |
+
 
 **TO-BE PROCESS**
 
@@ -192,21 +206,6 @@ If unavailable: Inform Customer → Alternative / Exit
 | Order Management	| Centralize lifecycle	| Status management, order IDs, exception states |
 | Customer Visibility	| Reduce uncertainty	| Tracking, ETA, status, delay information |
 | Operations Monitoring	| Enable intervention	| SLA alerts, cancellation dashboard, inventory exceptions |
-
-
-<br>
-<br>
-
-
-**USER STORIES AND ACCEPTANCE CRITERIA**
-
-| ID 	| User Story | Acceptance Criteria |
-| -------------------------------- | ----------------------------- | ----------------------------- |
-| US-001 | As a customer, I want inventory validated before confirmation so I do not purchase an unavailable product. (inventory) |	Available stock is validated/reserved; unavailable stock prevents confirmation and shows an appropriate message.|
-| US-002 | As a customer, I want to see my order status so I know where my order is. (Order tracking) |	Latest status, ETA and tracking number are displayed where available.|
-| US-003 | As a customer, I want order updates so I know when my order progresses. (notification) |	Confirmation, dispatch, out-for-delivery, delivery and significant-delay notifications are triggered. |
-| US-004 | As a CS agent, I want one order view so I can resolve customer issues quickly. (Customer service) |	Agent can retrieve order and see payment, inventory, fulfillment and delivery information, customer details, cancellation/refund. |
-| US-005 | As an Operations Manager, I want delayed orders identified automatically so I can intervene before cancellation. (monitoring) |	SLA threshold is defined, orders monitored, flagged and visible to Operations. Escalation can occur |
 
 
 <br>
