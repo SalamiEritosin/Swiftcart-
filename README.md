@@ -267,6 +267,19 @@ If unavailable: Inform Customer → Alternative / Exit
 | BR-005	| FR-006	US-005	| UAT-004 |
 | BR-006	| FR-007 / FR-010	US-004	| UAT-005 |
 
+<br>
+<br>
+
+**BUSINESS KPI**
+| KPI	| Baseline (Simulated)	| Target	Post-Implementation |
+| -------------------------------- | ----------------------------- | ----------------------------- |
+| Cancellation rate	| 12%	| <7% |	
+| Late delivery rate	| 21%	| <12%	|
+| Inventory accuracy |	88%	| ≥97%	|
+| CS order-resolution time	| 15 min	| <5 min	|
+| Tracking visibility	| 60%	| ≥95% |	
+
+
 
 
 
