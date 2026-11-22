@@ -1,5 +1,10 @@
 # SWIFTCART
-SwiftCart is a Nigerian e-commerce company, experiencing a significant increase in customer order cancellations. Customers are cancelling orders after placing them, resulting in Lost revenue, Increased refund processing, Poor customer experience, Increased workload for Customer Service, Wasted warehouse processing, Inefficient delivery operations and Reduced customer trust.<br>
+SwiftCart is a simulated e-commerce business experiencing customer order cancellations, fulfilment delays, inventory discrepancies and limited order-status visibility.
+This independent Business Analysis portfolio project explores how improved inventory integration, centralised order management, customer visibility and operational monitoring can improve order fulfilment and reduce avoidable cancellations.
+
+**BUSINESS PROBLEM**<br>
+Customers experience uncertainty and frustration when orders are accepted despite inventory limitations, fulfilment is delayed, and order updates are unavailable or inconsistent.
+Customer service agents also lack a unified order view, making it difficult to investigate complaints and resolve issues quickly.<br>
 
 
 **BUSINESS OBJECTIVES**<br>
