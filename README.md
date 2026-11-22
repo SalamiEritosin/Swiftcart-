@@ -69,6 +69,26 @@ Order tracking availability: 60% → ≥95%<br>
 <br>
 <br>
 
+**STAKEHOLDER LIST**
+| Stakeholder | 	Interest	| Influence	| Why they matter | 
+| --------------- | -------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+|COO	| High	| High	| Project sponsor |                  
+|Operations Manager	| High	| High	| Owns fulfillment process |         
+|Customer Service | High	| Medium	| Handles cancellation complaints |  
+|Warehouse | High	| Medium	| Fulfills orders |                 
+|Inventory Team |	High	| High	| Controls availability information |
+|Logistics |	High	| Medium	| Responsible for delivery |       
+|IT |	Medium	| High	| Supports systems/integrations |    
+|Product Manager | High	| High	| Owns customer/product experience |
+|Finance | Medium	| High	| Handles refunds/revenue impact | 
+|Customers | High	| Low | individually	Experience the problem |          
+|Delivery Partners |	Medium	| Medium	| Influence delivery performance |    
+
+
+
+<br>
+<br>
+
 **ELICITATION & REQUIREMENTS GATHERING**<br>
 **Elicitation plan**
 | Method |	Participants/Evidence  |	Purpose |
