@@ -244,7 +244,13 @@ Customer → Select Product → Inventory Validation → Available? → Reserve 
 
 If unavailable: Inform Customer → Alternative / Exit<br>
 
-![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/Dataflow%26%20process%20diagrams/Swift%20card%20bpmn_to-be.png)
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/Dataflow%26%20process%20diagrams/Swift%20card%20bpmn_to-be.png)<br>
+
+<br>
+<br>
+
+**DATA FLOW DIAGRAM**<br>
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/Dataflow%26%20process%20diagrams/swiftcard_dataflo.png)
 
 <br>
 
