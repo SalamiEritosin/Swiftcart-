@@ -130,12 +130,13 @@ R = Responsible for doing the work; A = Accountable for the outcome/approval; C 
 
 Customer → Browse → Add to Cart → Checkout → Payment → Order Created → Inventory Check → Warehouse → Pick → Pack → Dispatch → Delivery
 If unavailable: Contact Customer → Cancellation → Refund <br>
+
 ![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/Dataflow%26%20process%20diagrams/Swift%20card%20bpmn.as-is.png)
 
 
 <br>
 
-
+Using data analysis alongside 5whys (root-cause analysis)
 **GAP ANALYSIS**<br>
 | Current State	| Desired State	| Gap |
 | -------------------------------- | ----------------------------- | ----------------------------- |
