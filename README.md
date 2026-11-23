@@ -136,7 +136,8 @@ If unavailable: Contact Customer → Cancellation → Refund <br>
 
 <br>
 
-Using data analysis alongside 5whys (root-cause analysis)
+Using data analysis alongside 5whys (root-cause analysis)<br>
+
 **GAP ANALYSIS**<br>
 | Current State	| Desired State	| Gap |
 | -------------------------------- | ----------------------------- | ----------------------------- |
