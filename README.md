@@ -130,7 +130,7 @@ R = Responsible for doing the work; A = Accountable for the outcome/approval; C 
 
 Customer → Browse → Add to Cart → Checkout → Payment → Order Created → Inventory Check → Warehouse → Pick → Pack → Dispatch → Delivery
 If unavailable: Contact Customer → Cancellation → Refund <br>
-[]!(https://github.com/SalamiEritosin/Swiftcart-/blob/main/Dataflow%26%20process%20diagrams/Swift%20card%20bpmn.as-is.png)
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/Dataflow%26%20process%20diagrams/Swift%20card%20bpmn.as-is.png)
 
 
 <br>
@@ -240,7 +240,9 @@ If unavailable: Contact Customer → Cancellation → Refund <br>
 
 Customer → Select Product → Inventory Validation → Available? → Reserve Stock → Payment → Confirm Order → Automatic Warehouse Queue → Pick → Pack → Dispatch → Tracking Activated → Customer Notification → Delivery
 
-If unavailable: Inform Customer → Alternative / Exit
+If unavailable: Inform Customer → Alternative / Exit<br>
+
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/Dataflow%26%20process%20diagrams/Swift%20card%20bpmn_to-be.png)
 
 <br>
 
