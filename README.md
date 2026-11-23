@@ -91,7 +91,7 @@ Order tracking availability: 60% → ≥95%<br>
 <br>
 
 
-**RACI – key project activities**
+**RACI – key project activities**<br>
 R = Responsible for doing the work; A = Accountable for the outcome/approval; C = Consulted; I = Informed. One A is assigned per activity in this illustrative matrix.
 | Activity	| Sponsor	| Product / BA*	| Operations	| Customer service	| IT / Dev	| QA	| Data / BI |
 | --------------- | ------------------ | ------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
