@@ -129,7 +129,9 @@ R = Responsible for doing the work; A = Accountable for the outcome/approval; C 
 **AS-IS PROCESS**
 
 Customer → Browse → Add to Cart → Checkout → Payment → Order Created → Inventory Check → Warehouse → Pick → Pack → Dispatch → Delivery
-If unavailable: Contact Customer → Cancellation → Refund
+If unavailable: Contact Customer → Cancellation → Refund <br>
+[]!(https://github.com/SalamiEritosin/Swiftcart-/blob/main/Dataflow%26%20process%20diagrams/Swift%20card%20bpmn.as-is.png)
+
 
 <br>
 
