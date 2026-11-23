@@ -90,19 +90,20 @@ Order tracking availability: 60% → ≥95%<br>
 <br>
 
 
-Stakeholder needs and elicitation plan
-Stakeholder	Information to elicit	Technique	Sample questions
-COO / Sponsor	Business case, cancellation baseline, target outcomes, investment and operational risks.	Executive interview; decision workshop	What cancellation and fulfilment outcomes matter most? What trade-offs are acceptable? Who approves scope and go-live?
-Product owner	Customer journey, order lifecycle rules, priorities and release scope.	Requirements workshop; backlog review	What should happen when stock changes between cart and payment? Which statuses must customers see?
-Warehouse / Fulfilment	Current pick-pack-dispatch process, bottlenecks, cut-off times and exception reasons.	Process walkthrough; observation; workshop	Where do orders wait? How are short picks, damaged items and missed dispatch cut-offs handled?
-Inventory / Stock control	Stock source of truth, update timing, reservation and adjustment rules.	Data/process workshop	When is stock reserved and released? How are oversells and stock mismatches detected and corrected?
-Customer service manager / agents	Common enquiry types, tools used, handoffs, repeat contacts and escalation rules.	Interviews; call/case sampling (if available); prototype review	What information must appear in one order view? Which actions can agents perform and which require approval?
-Logistics / Courier	Dispatch handoff, carrier events, ETA calculation and failed-delivery process.	Interface workshop; process walkthrough	Which tracking events are available? How often are they updated? What happens when a carrier misses a scan?
-Finance / Payments	Payment states, settlement, cancellation, refunds and reconciliation controls.	Policy review; interview	When is payment captured? What refund triggers and approvals apply to cancelled orders?
-IT / Developers	Current systems, APIs, data ownership, constraints, identity/security and integration dependencies.	Technical discovery; interface workshop	Which system owns each data element? What APIs/events exist? What latency, availability and security constraints apply?
-QA / Test lead	Test strategy, environments, test data, acceptance and defect workflow.	Test planning workshop	How will stock race conditions, duplicate events, delayed updates and failed integrations be tested?
-Data / BI	KPI definitions, source data, event timestamps, dashboard audiences and refresh cadence.	Metric-definition workshop	How are cancellation rate, fulfilment time, on-time delivery and inventory accuracy calculated?
-Customers	Expectations for stock confidence, order tracking, ETA and issue resolution.	Survey/interviews/usability testing	What information would reduce uncertainty? At what points should customers receive updates?
+**STAKEHOLDER NEEDS and ELICITATION PLAN**
+| Stakeholder	| Information to elicit	| Technique	| Sample questions |
+| --------------- | -------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| Sponsor	| Business case, cancellation baseline, target outcomes, investment and operational risks.	| Executive interview; decision workshop	| What cancellation and fulfilment outcomes matter most? What trade-offs are acceptable? Who approves scope and go-live? |
+| Product owner	| Customer journey, order lifecycle rules, priorities and release scope.	| Requirements workshop; backlog review	| What should happen when stock changes between cart and payment? Which statuses must customers see? |
+| Warehouse	| Current pick-pack-dispatch process, bottlenecks, cut-off times and exception reasons.	| Process walkthrough; observation; workshop	| Where do orders wait? How are short picks, damaged items and missed dispatch cut-offs handled? |
+| Inventory manager	| Stock source of truth, update timing, reservation and adjustment rules.	| Data/process workshop	| When is stock reserved and released? How are oversells and stock mismatches detected and corrected? |
+| Customer service manager / agents	| Common enquiry types, tools used, handoffs, repeat contacts and escalation rules.	| Interviews; call/case sampling (if available); prototype review	| What information must appear in one order view? Which actions can agents perform and which require approval? |
+| Logistics	| Dispatch handoff, carrier events, ETA calculation and failed-delivery process.	| Interface workshop; process walkthrough	| Which tracking events are available? How often are they updated? What happens when a carrier misses a scan? |
+| Finance | Payment states, settlement, cancellation, refunds and reconciliation controls.	| Policy review; interview	| When is payment captured? What refund triggers and approvals apply to cancelled orders? |
+| IT / Developers	| Current systems, APIs, data ownership, constraints, identity/security and integration dependencies.	| Technical discovery; interface workshop	| Which system owns each data element? What APIs/events exist? What latency, availability and security constraints apply? |
+| QA |	Test strategy, environments, test data, acceptance and defect workflow.	| Test planning workshop	| How will stock race conditions, duplicate events, delayed updates and failed integrations be tested? |
+| Data / BI	| KPI definitions, source data, event timestamps, dashboard audiences and refresh cadence.	| Metric-definition workshop	| How are cancellation rate, fulfilment time, on-time delivery and inventory accuracy calculated? |
+| Customers	| Expectations for stock confidence, order tracking, ETA and issue resolution.	| Survey/interviews/usability testing	| What information would reduce uncertainty? At what points should customers receive updates? |
 
 
 
