@@ -108,20 +108,6 @@ R = Responsible for doing the work; A = Accountable for the outcome/approval; C 
 | Monitor KPIs and benefits after release	| A	| R	| R	| C	| C	| C	| R |
 
 
-
-<br>
-<br>
-
-**ELICITATION & REQUIREMENTS GATHERING**<br>
-**Elicitation plan**
-| Method |	Participants/Evidence  |	Purpose |
-| --------------- | -------------------------------------------- | --------------------------------------------------- |
-| Interviews	| Operations, Inventory, Warehouse, CS, Logistics, Product, IT, Finance |	Understand needs, pain points and constraints |
-| Observation	| Warehouse and CS workflows	| Identify actual process gaps|
-| Document analysis	| Cancellation, inventory, delivery, refund and SOP documents, reports from stakeholders about their pain |	Validate existing rules and performance |
-| Data analysis |	Orders, cancellations, inventory, delivery and complaints	| Quantify the problem and locate patterns |
-| Customer research / survey	| Cancelled/recent customers	| Understand customer experience and cancellation triggers |
-
 <br>
 <br>
 
@@ -261,6 +247,28 @@ If unavailable: Inform Customer → Alternative / Exit<br>
 | Order Management	| Centralize lifecycle	| Status management, order IDs, exception states |
 | Customer Visibility	| Reduce uncertainty	| Tracking, ETA, status, delay information |
 | Operations Monitoring	| Enable intervention	| SLA alerts, cancellation dashboard, inventory exceptions |
+
+
+<br>
+
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/proposed%20solution/01-customer-shopping%201.png)
+
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/proposed%20solution/02-checkout-validation%201.png)
+
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/proposed%20solution/03-order-tracking%201.png)
+
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/proposed%20solution/04-cs-agent-queue%201.png)
+
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/proposed%20solution/05-unified-order-view%201.png)
+
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/proposed%20solution/06-agent-actions-refund%201.png)
+
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/proposed%20solution/07-operations-dashboard%201.png)
+
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/proposed%20solution/08-exception-handling%201.png)
+
+![](https://github.com/SalamiEritosin/Swiftcart-/blob/main/proposed%20solution/operation%20orderview%20farme.png)
+
 
 
 <br>
