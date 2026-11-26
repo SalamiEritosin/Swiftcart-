@@ -323,8 +323,8 @@ If unavailable: Inform Customer → Alternative / Exit<br>
 | Tracking visibility	| 60%	| ≥95% |	
 
 <br>
-link to the dataset [here](https://github.com/SalamiEritosin/Swiftcart-/blob/main/dataset/SwiftCart_Synthetic_Order_Dataset.xlsx)
 
+link to the dataset [here](https://github.com/SalamiEritosin/Swiftcart-/tree/main/dataset)
 
 
 
