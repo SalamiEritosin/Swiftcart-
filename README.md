@@ -1,6 +1,8 @@
 # SWIFTCART
-SwiftCart is a simulated e-commerce business experiencing customer order cancellations, fulfilment delays, inventory discrepancies and limited order-status visibility.
+SwiftCart is an e-commerce business experiencing customer order cancellations, fulfilment delays, inventory discrepancies and limited order-status visibility.
 This independent Business Analysis portfolio project explores how improved inventory integration, centralised order management, customer visibility and operational monitoring can improve order fulfilment and reduce avoidable cancellations.
+
+This is a case study
 
 **BUSINESS PROBLEM**<br>
 Customers experience uncertainty and frustration when orders are accepted despite inventory limitations, fulfilment is delayed, and order updates are unavailable or inconsistent.
@@ -314,7 +316,7 @@ If unavailable: Inform Customer → Alternative / Exit<br>
 <br>
 
 **BUSINESS KPI**
-| KPI	| Baseline (Simulated)	| Target	Post-Implementation |
+| KPI	| Baseline	| Target	Post-Implementation |
 | -------------------------------- | ----------------------------- | ----------------------------- |
 | Cancellation rate	| 12%	| <7% |	
 | Late delivery rate	| 21%	| <12%	|
